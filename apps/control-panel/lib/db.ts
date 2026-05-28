@@ -88,11 +88,11 @@ export type GateApproval = {
 // ---- Health-check query (used by the Settings page later) ----
 export async function dbHealth(): Promise<{ ok: boolean; tables: number; error?: string }> {
   try {
-    const rows = await sql<{ count: number }[]>`
+    const rows = (await sql`
       select count(*)::int as count
       from information_schema.tables
       where table_schema = 'public'
-    `;
+    `) as { count: number }[];
     return { ok: true, tables: rows[0]?.count ?? 0 };
   } catch (e: unknown) {
     return { ok: false, tables: 0, error: e instanceof Error ? e.message : String(e) };
