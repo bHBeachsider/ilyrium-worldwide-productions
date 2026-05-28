@@ -1,0 +1,9 @@
+blosm.arcgisAccessToken=''
+blosm.assetsDir=''
+blosm.bl_idname='\x06'
+blosm.dataDir='C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\cesium\\3d_tiles'
+blosm.enableExperimentalFeatures=False
+blosm.googleMapsApiKey='AIzaSyAYb8SiamMtuDno3tYzriarvjMJ4OzTapg'
+blosm.mapboxAccessToken=''
+blosm.osmServer='overpass-api.de'
+blosm.screenType='preferences'

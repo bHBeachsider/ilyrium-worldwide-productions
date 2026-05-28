@@ -1,0 +1,73 @@
+{
+  "skill_name": "ilyrium-greenlight",
+  "evals": [
+    {
+      "id": 1,
+      "name": "render-v10-clean-state",
+      "prompt": "Should I render v10 now? Just finished placing the v8.1 dialogue, audit confirms A1-A6 populated and A8 has the single F-18 clip at frame 734. Render queue is empty.",
+      "expected_output": "GREENLIGHT verdict. Pre-flight should note: latest audit clean, A8 not fragmented, render queue empty. Discipline should reference script-don't-click and ASCII rules as respected. Next action should be the render_timeline.py command with --duration-s 60. Memory plan should be lightweight (mostly just recording the render output filename).",
+      "files": [],
+      "assertions": [
+        {"text": "Output starts with 'GREENLIGHT' (not WAIT or HOLD)"},
+        {"text": "Mentions the latest audit JSON or current track state"},
+        {"text": "Includes an exact PowerShell command starting with 'python' and including 'render_timeline.py'"},
+        {"text": "References at least one memory rule by name (feedback-*) using [[wikilinks]] or quoted name"},
+        {"text": "Total length under 30 lines"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "push-script-with-wrong-path",
+      "prompt": "Want to push my new transcribe_dialogue.py script to S3 so the EC2 can use it. The file is at C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\scripts\\transcribe_dialogue.py. Ok to run aws s3 cp on it?",
+      "expected_output": "HOLD verdict. The proposed source path is in film_projects/ which is the backup-only root per feedback-write-to-ilyrium. Should refuse and recommend moving the file to C:\\Users\\bradu\\Documents\\Ilyrium\\films\\kathy-flyby\\scripts\\ first, then pushing from there.",
+      "files": [],
+      "assertions": [
+        {"text": "Output starts with 'HOLD' (the verdict is hard-no)"},
+        {"text": "Explicitly references the write-to-ilyrium rule by name or wikilink"},
+        {"text": "Includes a corrective action: move file to Ilyrium\\films\\kathy-flyby\\scripts\\ first"},
+        {"text": "Does not provide the original aws s3 cp command as the next step"},
+        {"text": "Tone is direct, not handholding"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ec2-stop-mid-render",
+      "prompt": "OK to stop the EC2 now? I'm done for the night.",
+      "expected_output": "Should be GREENLIGHT if nothing is rendering, but should check for active renders/downloads first. If unable to verify state, return WAIT with instruction to check ComfyUI / UE / model download status.",
+      "files": [],
+      "assertions": [
+        {"text": "Verdict is one of GREENLIGHT, WAIT, or HOLD (matches the prescribed vocabulary)"},
+        {"text": "Includes a pre-flight check for active renders or downloads on the EC2"},
+        {"text": "Includes the exact aws ec2 stop-instances command with the correct instance ID i-030994c5371ee5de9 if greenlit"},
+        {"text": "Mentions the cost-savings rationale (or references the EC2 reference memory)"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "apply-dialogue-no-dry-run",
+      "prompt": "Run place_dialogue_from_disk.py --apply right now. Need to ship v9.",
+      "expected_output": "WAIT verdict. Should catch the missing dry-run and refuse to greenlight until dry-run output is reviewed. Should also verify A1-A7 are empty before --apply (the script's safety check). Recommend the dry-run first, then re-ask.",
+      "files": [],
+      "assertions": [
+        {"text": "Verdict is WAIT (not GREENLIGHT - the missing dry-run should block)"},
+        {"text": "Calls out that no dry-run output is in context to verify"},
+        {"text": "Recommends running without --apply first as the corrective action"},
+        {"text": "References the script-don't-click discipline or audit-first habit"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "snapshot-ami-fresh-install",
+      "prompt": "Just finished installing ComfyUI on the EC2 along with all the essentials. Should I snapshot the AMI now?",
+      "expected_output": "GREENLIGHT verdict. Pre-flight should note instance state is running and install work is complete. Next action: aws ec2 create-image command with name ilyrium-ue57-base (or a sensible variant). Memory plan should include updating reference-ilyrium-ec2-workstation with the new AMI ID after the snapshot completes.",
+      "files": [],
+      "assertions": [
+        {"text": "Output starts with 'GREENLIGHT'"},
+        {"text": "Includes the exact aws ec2 create-image command"},
+        {"text": "Snapshot name follows ilyrium-<purpose>-base convention"},
+        {"text": "Memory plan mentions updating the AMI ID in reference-ilyrium-ec2-workstation"},
+        {"text": "Notes that the AMI snapshot allows fast future launches (sells the value)"}
+      ]
+    }
+  ]
+}

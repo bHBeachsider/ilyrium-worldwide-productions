@@ -1,0 +1,913 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-05-27T09:46:11",
+  "resolve": {
+    "product": "DaVinci Resolve Studio",
+    "version": "20.3.3.10"
+  },
+  "project": {
+    "name": "kathy_flyby",
+    "timeline_count": 6,
+    "current_timeline": "kathy_flyby_main_v8",
+    "framerate": 24.0,
+    "resolution_w": "1920",
+    "resolution_h": "1080"
+  },
+  "tracks": {
+    "video": [
+      {
+        "index": 1,
+        "type": "video",
+        "name": "Video 1",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 16,
+        "clips": [
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 0,
+            "end_frame": 4,
+            "duration_frames": 4,
+            "left_offset": 158,
+            "right_offset": 2718,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 4,
+            "end_frame": 8,
+            "duration_frames": 4,
+            "left_offset": 212,
+            "right_offset": 2664,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 8,
+            "end_frame": 102,
+            "duration_frames": 94,
+            "left_offset": 257,
+            "right_offset": 2529,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 102,
+            "end_frame": 231,
+            "duration_frames": 129,
+            "left_offset": 431,
+            "right_offset": 2320,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 231,
+            "end_frame": 235,
+            "duration_frames": 4,
+            "left_offset": 585,
+            "right_offset": 2291,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 235,
+            "end_frame": 274,
+            "duration_frames": 39,
+            "left_offset": 747,
+            "right_offset": 2094,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 274,
+            "end_frame": 536,
+            "duration_frames": 262,
+            "left_offset": 842,
+            "right_offset": 1776,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 536,
+            "end_frame": 652,
+            "duration_frames": 116,
+            "left_offset": 1127,
+            "right_offset": 1637,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 652,
+            "end_frame": 656,
+            "duration_frames": 4,
+            "left_offset": 1387,
+            "right_offset": 1489,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 656,
+            "end_frame": 660,
+            "duration_frames": 4,
+            "left_offset": 1434,
+            "right_offset": 1442,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 660,
+            "end_frame": 664,
+            "duration_frames": 4,
+            "left_offset": 1620,
+            "right_offset": 1256,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 664,
+            "end_frame": 668,
+            "duration_frames": 4,
+            "left_offset": 1727,
+            "right_offset": 1149,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 668,
+            "end_frame": 672,
+            "duration_frames": 4,
+            "left_offset": 1755,
+            "right_offset": 1121,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 672,
+            "end_frame": 676,
+            "duration_frames": 4,
+            "left_offset": 1863,
+            "right_offset": 1013,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 676,
+            "end_frame": 934,
+            "duration_frames": 258,
+            "left_offset": 1931,
+            "right_offset": 691,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          },
+          {
+            "name": "frame_[0000-2879].jpg",
+            "track_type": "video",
+            "track_idx": 1,
+            "start_frame": 934,
+            "end_frame": 1463,
+            "duration_frames": 529,
+            "left_offset": 2351,
+            "right_offset": 0,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\frames_v8\\frame_[0000-2879].jpg"
+          }
+        ],
+        "subtype": ""
+      },
+      {
+        "index": 2,
+        "type": "video",
+        "name": "Video 2",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 1,
+        "clips": [
+          {
+            "name": "ground_flyover_wide.mp4",
+            "track_type": "video",
+            "track_idx": 2,
+            "start_frame": 342,
+            "end_frame": 413,
+            "duration_frames": 71,
+            "left_offset": 0,
+            "right_offset": 121,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\ground_flyover_wide.mp4"
+          }
+        ],
+        "subtype": ""
+      },
+      {
+        "index": 3,
+        "type": "video",
+        "name": "Video 3",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 0,
+        "clips": [],
+        "subtype": ""
+      },
+      {
+        "index": 4,
+        "type": "video",
+        "name": "Video 4",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 3,
+        "clips": [
+          {
+            "name": "ground_flyover_scene.mp4",
+            "track_type": "video",
+            "track_idx": 4,
+            "start_frame": 416,
+            "end_frame": 487,
+            "duration_frames": 71,
+            "left_offset": 0,
+            "right_offset": 121,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\ground_flyover_scene.mp4"
+          },
+          {
+            "name": "ground_flyover_scene.mp4",
+            "track_type": "video",
+            "track_idx": 4,
+            "start_frame": 488,
+            "end_frame": 535,
+            "duration_frames": 47,
+            "left_offset": 96,
+            "right_offset": 49,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\ground_flyover_scene.mp4"
+          },
+          {
+            "name": "kathy_reaction_ots.mp4",
+            "track_type": "video",
+            "track_idx": 4,
+            "start_frame": 537,
+            "end_frame": 584,
+            "duration_frames": 47,
+            "left_offset": 48,
+            "right_offset": 1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\kathy_reaction_ots.mp4"
+          }
+        ],
+        "subtype": ""
+      }
+    ],
+    "audio": [
+      {
+        "index": 1,
+        "type": "audio",
+        "name": "LEAD - Bryan",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 13,
+        "clips": [
+          {
+            "name": "000_000s_lead_diamond_bryan_cleared_on_course.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 0,
+            "end_frame": 38,
+            "duration_frames": 38,
+            "left_offset": 0,
+            "right_offset": 103,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\000_000s_lead_diamond_bryan_cleared_on_course.mp3"
+          },
+          {
+            "name": "006_010s_lead_slot_whats_first_on_the_list.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 240,
+            "end_frame": 290,
+            "duration_frames": 50,
+            "left_offset": 0,
+            "right_offset": -4,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\006_010s_lead_slot_whats_first_on_the_list.mp3"
+          },
+          {
+            "name": "009_025s_lead_slot_give_me_a_bearing.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 600,
+            "end_frame": 641,
+            "duration_frames": 41,
+            "left_offset": 0,
+            "right_offset": 4,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\009_025s_lead_slot_give_me_a_bearing.mp3"
+          },
+          {
+            "name": "016_048s_lead_time_check.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 1152,
+            "end_frame": 1177,
+            "duration_frames": 25,
+            "left_offset": 0,
+            "right_offset": -1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\016_048s_lead_time_check.mp3"
+          },
+          {
+            "name": "020_056s_lead_quiet_we_can_help_with_that_stan.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 1344,
+            "end_frame": 1400,
+            "duration_frames": 56,
+            "left_offset": 0,
+            "right_offset": -5,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\020_056s_lead_quiet_we_can_help_with_that_stan.mp3"
+          },
+          {
+            "name": "022_064s_lead_tally_diamond_on_me_jetwash_patt.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 1536,
+            "end_frame": 1694,
+            "duration_frames": 158,
+            "left_offset": 0,
+            "right_offset": 10,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\022_064s_lead_tally_diamond_on_me_jetwash_patt.mp3"
+          },
+          {
+            "name": "028_073s_lead_diamond_burner_on_three_three_tw.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 1752,
+            "end_frame": 1896,
+            "duration_frames": 144,
+            "left_offset": 0,
+            "right_offset": -10,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\028_073s_lead_diamond_burner_on_three_three_tw.mp3"
+          },
+          {
+            "name": "031_081s_lead_warm_quiet_welcome_to_the_neighb.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 1944,
+            "end_frame": 1987,
+            "duration_frames": 43,
+            "left_offset": 0,
+            "right_offset": 2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\031_081s_lead_warm_quiet_welcome_to_the_neighb.mp3"
+          },
+          {
+            "name": "032_084s_lead_diamond_climbing_twoeightzero_an.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 2016,
+            "end_frame": 2126,
+            "duration_frames": 110,
+            "left_offset": 0,
+            "right_offset": -17,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\032_084s_lead_diamond_climbing_twoeightzero_an.mp3"
+          },
+          {
+            "name": "040_094s_lead_sebastians_their_problem.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 2256,
+            "end_frame": 2280,
+            "duration_frames": 24,
+            "left_offset": 0,
+            "right_offset": 15,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\040_094s_lead_sebastians_their_problem.mp3"
+          },
+          {
+            "name": "041_098s_lead_tower_bryan_diamond_six_climbing.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 2352,
+            "end_frame": 2455,
+            "duration_frames": 103,
+            "left_offset": 0,
+            "right_offset": 61,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\041_098s_lead_tower_bryan_diamond_six_climbing.mp3"
+          },
+          {
+            "name": "043_110s_lead_smiling_tower_diamond_six_copy_t.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 2640,
+            "end_frame": 2744,
+            "duration_frames": 104,
+            "left_offset": 0,
+            "right_offset": 11,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\043_110s_lead_smiling_tower_diamond_six_copy_t.mp3"
+          },
+          {
+            "name": "045_117s_lead_diamond_lead_rtb.mp3",
+            "track_type": "audio",
+            "track_idx": 1,
+            "start_frame": 2808,
+            "end_frame": 2872,
+            "duration_frames": 64,
+            "left_offset": 0,
+            "right_offset": -1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\045_117s_lead_diamond_lead_rtb.mp3"
+          }
+        ],
+        "subtype": "stereo"
+      },
+      {
+        "index": 2,
+        "type": "audio",
+        "name": "SLOT - Hafeza (POV)",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 12,
+        "clips": [
+          {
+            "name": "003_006s_slot_warm_four_visual_on_lead_chore_m.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 144,
+            "end_frame": 229,
+            "duration_frames": 85,
+            "left_offset": 0,
+            "right_offset": 7,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\003_006s_slot_warm_four_visual_on_lead_chore_m.mp3"
+          },
+          {
+            "name": "007_013s_slot_lead_target_is_onethreeeighty_fo.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 312,
+            "end_frame": 360,
+            "duration_frames": 48,
+            "left_offset": 0,
+            "right_offset": 173,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\007_013s_slot_lead_target_is_onethreeeighty_fo.mp3"
+          },
+          {
+            "name": "010_027s_slot_stand_by_lead_new_construction_r.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 648,
+            "end_frame": 785,
+            "duration_frames": 137,
+            "left_offset": 0,
+            "right_offset": 21,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\010_027s_slot_stand_by_lead_new_construction_r.mp3"
+          },
+          {
+            "name": "013_038s_slot_wrong_mailbox_six_hers_is_white.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 912,
+            "end_frame": 1029,
+            "duration_frames": 117,
+            "left_offset": 0,
+            "right_offset": -1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\013_038s_slot_wrong_mailbox_six_hers_is_white.mp3"
+          },
+          {
+            "name": "015_044s_slot_quiet_she_mentioned_the_cedar.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 1056,
+            "end_frame": 1093,
+            "duration_frames": 37,
+            "left_offset": 0,
+            "right_offset": 19,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\015_044s_slot_quiet_she_mentioned_the_cedar.mp3"
+          },
+          {
+            "name": "017_049s_slot_forty_seconds_to_overhead.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 1176,
+            "end_frame": 1209,
+            "duration_frames": 33,
+            "left_offset": 0,
+            "right_offset": 6,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\017_049s_slot_forty_seconds_to_overhead.mp3"
+          },
+          {
+            "name": "021_060s_slot_urgent_lead__got_her_curved_driv.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 1440,
+            "end_frame": 1488,
+            "duration_frames": 48,
+            "left_offset": 0,
+            "right_offset": 66,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\021_060s_slot_urgent_lead__got_her_curved_driv.mp3"
+          },
+          {
+            "name": "025_071s_slot_four_in.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 1704,
+            "end_frame": 1745,
+            "duration_frames": 41,
+            "left_offset": 0,
+            "right_offset": -9,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\025_071s_slot_four_in.mp3"
+          },
+          {
+            "name": "029_077s_slot_deadpan_slot_copies_gutters_clea.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 1848,
+            "end_frame": 1900,
+            "duration_frames": 52,
+            "left_offset": 0,
+            "right_offset": 2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\029_077s_slot_deadpan_slot_copies_gutters_clea.mp3"
+          },
+          {
+            "name": "035_088s_slot_four.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 2112,
+            "end_frame": 2130,
+            "duration_frames": 18,
+            "left_offset": 0,
+            "right_offset": 11,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\035_088s_slot_four.mp3"
+          },
+          {
+            "name": "039_092s_slot_calm_most_of_them_the_rest_are_i.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 2208,
+            "end_frame": 2280,
+            "duration_frames": 72,
+            "left_offset": 0,
+            "right_offset": -1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\039_092s_slot_calm_most_of_them_the_rest_are_i.mp3"
+          },
+          {
+            "name": "044_115s_slot_soft_lead_four_were_done.mp3",
+            "track_type": "audio",
+            "track_idx": 2,
+            "start_frame": 2760,
+            "end_frame": 2807,
+            "duration_frames": 47,
+            "left_offset": 0,
+            "right_offset": -5,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\044_115s_slot_soft_lead_four_were_done.mp3"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 3,
+        "type": "audio",
+        "name": "2 - Left Wing",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 4,
+        "clips": [
+          {
+            "name": "011_033s_2_excited_two_three_oclock_low__ba.mp3",
+            "track_type": "audio",
+            "track_idx": 3,
+            "start_frame": 792,
+            "end_frame": 918,
+            "duration_frames": 126,
+            "left_offset": 0,
+            "right_offset": -2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\011_033s_2_excited_two_three_oclock_low__ba.mp3"
+          },
+          {
+            "name": "019_054s_2_two_more_leaves_than_house.mp3",
+            "track_type": "audio",
+            "track_idx": 3,
+            "start_frame": 1296,
+            "end_frame": 1350,
+            "duration_frames": 54,
+            "left_offset": 0,
+            "right_offset": 12,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\019_054s_2_two_more_leaves_than_house.mp3"
+          },
+          {
+            "name": "023_069s_2_two_in.mp3",
+            "track_type": "audio",
+            "track_idx": 3,
+            "start_frame": 1656,
+            "end_frame": 1722,
+            "duration_frames": 66,
+            "left_offset": 0,
+            "right_offset": -28,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\023_069s_2_two_in.mp3"
+          },
+          {
+            "name": "033_087s_2_two.mp3",
+            "track_type": "audio",
+            "track_idx": 3,
+            "start_frame": 2088,
+            "end_frame": 2102,
+            "duration_frames": 14,
+            "left_offset": 0,
+            "right_offset": 15,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\033_087s_2_two.mp3"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 4,
+        "type": "audio",
+        "name": "3 - Right Wing",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 7,
+        "clips": [
+          {
+            "name": "002_005s_3_three.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 120,
+            "end_frame": 134,
+            "duration_frames": 14,
+            "left_offset": 0,
+            "right_offset": 9,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\002_005s_3_three.mp3"
+          },
+          {
+            "name": "008_021s_3_deadpan_three_copies_we_brought.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 504,
+            "end_frame": 568,
+            "duration_frames": 64,
+            "left_offset": 0,
+            "right_offset": -3,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\008_021s_3_deadpan_three_copies_we_brought.mp3"
+          },
+          {
+            "name": "018_051s_3_dry_threes_got_tally_on_a_guy_wi.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 1224,
+            "end_frame": 1311,
+            "duration_frames": 87,
+            "left_offset": 0,
+            "right_offset": 3,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\018_051s_3_dry_threes_got_tally_on_a_guy_wi.mp3"
+          },
+          {
+            "name": "024_070s_3_three_in.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 1680,
+            "end_frame": 1715,
+            "duration_frames": 35,
+            "left_offset": 0,
+            "right_offset": 2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\024_070s_3_three_in.mp3"
+          },
+          {
+            "name": "030_079s_3_dry_three_copies_leaves_relocate.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 1896,
+            "end_frame": 1971,
+            "duration_frames": 75,
+            "left_offset": 0,
+            "right_offset": -4,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\030_079s_3_dry_three_copies_leaves_relocate.mp3"
+          },
+          {
+            "name": "034_087s_3_three.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 2088,
+            "end_frame": 2106,
+            "duration_frames": 18,
+            "left_offset": 0,
+            "right_offset": 3,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\034_087s_3_three.mp3"
+          },
+          {
+            "name": "038_090s_3_did_we_get_all_the_leaves.mp3",
+            "track_type": "audio",
+            "track_idx": 4,
+            "start_frame": 2160,
+            "end_frame": 2195,
+            "duration_frames": 35,
+            "left_offset": 0,
+            "right_offset": 0,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\038_090s_3_did_we_get_all_the_leaves.mp3"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 5,
+        "type": "audio",
+        "name": "5 - Lead Solo",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 4,
+        "clips": [
+          {
+            "name": "004_008s_5_five.mp3",
+            "track_type": "audio",
+            "track_idx": 5,
+            "start_frame": 192,
+            "end_frame": 217,
+            "duration_frames": 25,
+            "left_offset": 0,
+            "right_offset": -1,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\004_008s_5_five.mp3"
+          },
+          {
+            "name": "014_042s_5_amused_cedar_you_memorized_her_c.mp3",
+            "track_type": "audio",
+            "track_idx": 5,
+            "start_frame": 1008,
+            "end_frame": 1081,
+            "duration_frames": 73,
+            "left_offset": 0,
+            "right_offset": -10,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\014_042s_5_amused_cedar_you_memorized_her_c.mp3"
+          },
+          {
+            "name": "026_072s_5_five_in.mp3",
+            "track_type": "audio",
+            "track_idx": 5,
+            "start_frame": 1728,
+            "end_frame": 1759,
+            "duration_frames": 31,
+            "left_offset": 0,
+            "right_offset": 6,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\026_072s_5_five_in.mp3"
+          },
+          {
+            "name": "036_088s_5_five.mp3",
+            "track_type": "audio",
+            "track_idx": 5,
+            "start_frame": 2112,
+            "end_frame": 2135,
+            "duration_frames": 23,
+            "left_offset": 0,
+            "right_offset": 0,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\036_088s_5_five.mp3"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 6,
+        "type": "audio",
+        "name": "6 - Opp Solo",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 4,
+        "clips": [
+          {
+            "name": "005_009s_6_six.mp3",
+            "track_type": "audio",
+            "track_idx": 6,
+            "start_frame": 216,
+            "end_frame": 241,
+            "duration_frames": 25,
+            "left_offset": 0,
+            "right_offset": 0,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\005_009s_6_six.mp3"
+          },
+          {
+            "name": "012_036s_6_six_blue_mailbox_bare_patch_conf.mp3",
+            "track_type": "audio",
+            "track_idx": 6,
+            "start_frame": 864,
+            "end_frame": 949,
+            "duration_frames": 85,
+            "left_offset": 0,
+            "right_offset": 2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\012_036s_6_six_blue_mailbox_bare_patch_conf.mp3"
+          },
+          {
+            "name": "027_073s_6_six_in.mp3",
+            "track_type": "audio",
+            "track_idx": 6,
+            "start_frame": 1752,
+            "end_frame": 1795,
+            "duration_frames": 43,
+            "left_offset": 0,
+            "right_offset": -5,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\027_073s_6_six_in.mp3"
+          },
+          {
+            "name": "037_089s_6_six.mp3",
+            "track_type": "audio",
+            "track_idx": 6,
+            "start_frame": 2136,
+            "end_frame": 2157,
+            "duration_frames": 21,
+            "left_offset": 0,
+            "right_offset": 2,
+            "source_file": "C:\\Users\\bradu\\Documents\\film_projects\\Blue_Angels_Kathy_Flyby\\audio\\dialogue\\037_089s_6_six.mp3"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 7,
+        "type": "audio",
+        "name": "TOWER - ATC",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 0,
+        "clips": [],
+        "subtype": "mono"
+      },
+      {
+        "index": 8,
+        "type": "audio",
+        "name": "SFX (A8)",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 3,
+        "clips": [
+          {
+            "name": "135495__freqman__f-18-hornet-pass-01.wav",
+            "track_type": "audio",
+            "track_idx": 8,
+            "start_frame": 592,
+            "end_frame": 652,
+            "duration_frames": 60,
+            "left_offset": 490,
+            "right_offset": 979,
+            "source_file": "C:\\Users\\bradu\\Documents\\Ilyrium\\shared-assets\\audio-stems\\jet-flybys\\135495__freqman__f-18-hornet-pass-01.wav"
+          },
+          {
+            "name": "135495__freqman__f-18-hornet-pass-01.wav",
+            "track_type": "audio",
+            "track_idx": 8,
+            "start_frame": 652,
+            "end_frame": 656,
+            "duration_frames": 4,
+            "left_offset": 694,
+            "right_offset": 831,
+            "source_file": "C:\\Users\\bradu\\Documents\\Ilyrium\\shared-assets\\audio-stems\\jet-flybys\\135495__freqman__f-18-hornet-pass-01.wav"
+          },
+          {
+            "name": "135495__freqman__f-18-hornet-pass-01.wav",
+            "track_type": "audio",
+            "track_idx": 8,
+            "start_frame": 656,
+            "end_frame": 660,
+            "duration_frames": 4,
+            "left_offset": 741,
+            "right_offset": 784,
+            "source_file": "C:\\Users\\bradu\\Documents\\Ilyrium\\shared-assets\\audio-stems\\jet-flybys\\135495__freqman__f-18-hornet-pass-01.wav"
+          }
+        ],
+        "subtype": "mono"
+      },
+      {
+        "index": 9,
+        "type": "audio",
+        "name": "Audio 9",
+        "enabled": true,
+        "locked": false,
+        "color": null,
+        "clip_count": 0,
+        "clips": [],
+        "subtype": "stereo"
+      }
+    ],
+    "subtitle": []
+  }
+}
