@@ -4,15 +4,33 @@
 // Set DATABASE_URL in Vercel env vars (and locally in .env.local).
 // Use the POOLED connection string (contains "-pooler" in the hostname).
 
-import { neon } from "@neondatabase/serverless";
+import { neon, type NeonQueryFunction } from "@neondatabase/serverless";
 
-if (!process.env.DATABASE_URL) {
-  // Don't throw at import time during Vercel build — only when actually used.
-  // This keeps the build green even before DATABASE_URL is set.
-  console.warn("[db] DATABASE_URL is not set. Queries will fail at runtime.");
+let _sql: NeonQueryFunction<false, false> | undefined;
+
+function getSql() {
+  if (!_sql) {
+    if (!process.env.DATABASE_URL) {
+      throw new Error(
+        "[db] DATABASE_URL is not set. Set it in the Railway service variables."
+      );
+    }
+    _sql = neon(process.env.DATABASE_URL);
+  }
+  return _sql;
 }
 
-export const sql = neon(process.env.DATABASE_URL ?? "");
+export const sql: NeonQueryFunction<false, false> = new Proxy(
+  (() => {}) as unknown as NeonQueryFunction<false, false>,
+  {
+    apply(_target, thisArg, args) {
+      return Reflect.apply(getSql(), thisArg, args);
+    },
+    get(_target, prop, receiver) {
+      return Reflect.get(getSql(), prop, receiver);
+    },
+  }
+);
 
 // ---- Convenience types for the most-read tables ----
 export type Project = {
