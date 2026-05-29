@@ -1,14 +1,18 @@
 // Neon serverless Postgres client.
 // Uses the @neondatabase/serverless driver — connection-pooled, edge-safe.
 //
-// Set DATABASE_URL in Vercel env vars (and locally in .env.local).
+// Set DATABASE_URL in Railway service variables (Settings → Variables).
 // Use the POOLED connection string (contains "-pooler" in the hostname).
+//
+// Build-time safety: the proxy's get trap does NOT eagerly call getSql().
+// This lets Next.js collect page data without a live DB connection.
+// The build succeeds; the settings page shows "NOT SET" until the env var is added.
 
 import { neon, type NeonQueryFunction } from "@neondatabase/serverless";
 
 let _sql: NeonQueryFunction<false, false> | undefined;
 
-function getSql() {
+function getSql(): NeonQueryFunction<false, false> {
   if (!_sql) {
     if (!process.env.DATABASE_URL) {
       throw new Error(
@@ -24,10 +28,17 @@ export const sql: NeonQueryFunction<false, false> = new Proxy(
   (() => {}) as unknown as NeonQueryFunction<false, false>,
   {
     apply(_target, thisArg, args) {
+      // Tagged-template call: sql`SELECT ...` — initialize lazily.
       return Reflect.apply(getSql(), thisArg, args);
     },
     get(_target, prop, receiver) {
-      return Reflect.get(getSql(), prop, receiver);
+      // Only forward property reads if a connection already exists.
+      // Eagerly calling getSql() here triggers a build-time throw when
+      // DATABASE_URL is absent — this guard prevents that.
+      if (_sql) {
+        return Reflect.get(_sql, prop, receiver);
+      }
+      return undefined;
     },
   }
 );
@@ -103,8 +114,11 @@ export type GateApproval = {
   resolution_note: string | null;
 };
 
-// ---- Health-check query (used by the Settings page later) ----
+// ---- Health-check query (used by the Settings page) ----
 export async function dbHealth(): Promise<{ ok: boolean; tables: number; error?: string }> {
+  if (!process.env.DATABASE_URL) {
+    return { ok: false, tables: 0, error: "DATABASE_URL not configured — add it in Railway service variables" };
+  }
   try {
     const rows = (await sql`
       select count(*)::int as count
